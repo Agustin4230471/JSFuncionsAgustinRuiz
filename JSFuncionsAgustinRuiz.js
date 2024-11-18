@@ -5,6 +5,11 @@ function exercici1(nom = "Agustín", cognoms = "Ruiz Sosa") {
 exercici1()
 
 //exercici 2 - Passa un valor per paràmetre i mostri de quin tipus és.
+function exercici2(valor = "Hola") {
+    console.log(`El valor és de tipus: ${typeof valor}`);
+}
+exercici2()
+
 //exercici 3 - Mostri la data actual
 //exercici 4 - Declara una variable dins d’una funció i mostra el seu valor fora d’aquesta. Què passa? Perquè?
 //exercici 5 - Passa’t un String, retorni el número de vocals que té
