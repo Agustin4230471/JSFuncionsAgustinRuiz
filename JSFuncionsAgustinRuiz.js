@@ -17,6 +17,13 @@ function exercici3() {
 exercici3();
 
 //exercici 4 - Declara una variable dins d’una funció i mostra el seu valor fora d’aquesta. Què passa? Perquè?
+function exercici4() {
+    let variableInterna = "Hola";
+    console.log(variableInterna);
+}
+exercici4()
+//console.log(variableInterna);
+
 //exercici 5 - Passa’t un String, retorni el número de vocals que té
 //exercici 6 - Passa 3 enters com a paràmetres (el tercer ha de tenir un valor per defecte) i retorni la suma dels tres.
 //exercici 7 - Ha de cridar la funció de l’exercici 3 i retornar el resultat de la funció de l’exercici 6.
