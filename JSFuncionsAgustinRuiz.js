@@ -11,6 +11,11 @@ function exercici2(valor = "Hola") {
 exercici2()
 
 //exercici 3 - Mostri la data actual
+function exercici3() {
+    console.log("Data actual: " + new Date());
+}
+exercici3();
+
 //exercici 4 - Declara una variable dins d’una funció i mostra el seu valor fora d’aquesta. Què passa? Perquè?
 //exercici 5 - Passa’t un String, retorni el número de vocals que té
 //exercici 6 - Passa 3 enters com a paràmetres (el tercer ha de tenir un valor per defecte) i retorni la suma dels tres.
